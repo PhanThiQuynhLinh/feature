@@ -1,0 +1,266 @@
+@font-face {
+	font-family: 'roboto';
+	src: url(font/Roboto-Regular.ttf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	font-family: 'roboto';
+	font-size: 16px;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.container {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+
+header {
+	background: url("img/Background.png") no-repeat;
+	height: 800px;
+	text-align: center;
+}
+
+header #showbar {
+	padding-top: 40px;
+}
+
+header h2 {
+	color: yellow;
+	float: left;
+}
+
+header #menu {
+	float: left;
+	margin-left: 315px;
+}
+
+header #menu a:hover {
+	color: yellow;
+}
+
+header #icon {
+	float: right;
+}
+
+header ul li {
+	display: inline-block;
+}
+
+header ul li a {
+	text-decoration: none;
+	color: #ccc;
+	text-transform: uppercase;
+	padding: 15px;
+	font-size: 18px;
+}
+
+header #slogan {
+	font-size: 35px;
+	color: white;
+	width: 500px;
+	margin: auto;
+	margin-top: 80px;
+}
+
+header img {
+	width: 500px;
+	margin-top: 50px;
+}
+
+#features {
+	height: 700px;
+	text-align: center;
+}
+
+#features h1 {
+	font-family: Arial;
+}
+
+#features p {
+	font-family: Arial;
+	text-transform: uppercase;
+	margin-top: 40px;
+}
+
+#features #intro_features {
+	float: left;
+	width: 300px;
+	margin-top: 50px;
+}
+
+#features #intro_features p {
+	text-transform: none;
+	margin-top: 0;
+}
+
+#features #intro_features .part_of_info {
+	margin-top: 30px;
+}
+
+#features #intro_features .part_of_info img {
+	float: left;
+}
+
+#features #intro_features .part_of_info h4 {
+	float: right;
+	padding-right: 70px;
+	color: #616060;
+}
+
+#features #intro_features .part_of_info p {
+	float: right;
+	text-align: justify;
+	width: 230px;
+	margin-top: 10px;
+	color: #616060;
+}
+
+#features #picture {
+	float: right;
+	margin-top: 50px;
+}
+
+#download {
+	background: url("img/background (2).png") no-repeat;
+	height: 600px;
+	text-align: center;
+}
+
+#download h1 {
+	color: white;
+	padding-top: 200px;
+	font-family: Arial;
+}
+
+#download p {
+	color: white;
+	padding-top: 50px;
+	width: 600px;
+	margin: auto;
+}
+
+#download input[type="submit"] {
+	font-weight: bold;
+	margin-top: 40px;
+	width: 200px;
+	height: 40px;
+	border-radius: 25px;
+	background-color: #ebcb80;
+	border: none;
+	cursor: pointer;
+}
+
+#download input[type="submit"]:hover {
+	color: #ebcb80;
+	background-color: #4b4b4b;
+}
+
+#testimonials {
+	height: auto;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#testimonials h1 {
+	text-transform: capitalize;
+}
+
+#testimonials .part_of_testimonials {
+	width: 500px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 50px;
+	padding-bottom: 20px;
+}
+
+#testimonials .part_of_testimonials:hover {
+	box-shadow: 0 0 50px #ccc;
+}
+
+#testimonials .part_of_testimonials img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	float: left;
+	margin-top: 20px;
+}
+
+#testimonials .part_of_testimonials .info_person {
+	margin-top: 20px;
+	float: right;
+	width: 370px;
+}
+
+#testimonials .part_of_testimonials .info_person .address_person {
+	text-align: left;
+	line-height: 25px;
+	border-bottom: 1px solid #ccc;
+}
+
+#testimonials .part_of_testimonials .info_person .address_person h3 {
+	text-transform: uppercase;
+}
+
+#testimonials .part_of_testimonials .info_person .address_person p {
+	font-size: 15px;
+}
+
+#testimonials .part_of_testimonials .info_person .info p {
+	text-align: left;
+	margin-top: 50px;
+}
+
+#testimonials .part_of_testimonials .info_person .info ul {
+	margin-top: 15px;
+	text-align: left;
+}
+
+#testimonials .part_of_testimonials .info_person .info ul li {
+	display: inline;
+}
+
+#testimonials h1 {
+	padding-top: 80px;
+}
+
+#plan {
+	background-color: #ccc;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#plan h1 {
+	font-family: Arial;
+	padding-top: 50px;
+}
+
+#plan .plan_size {
+	width: 250px;
+	border: 1px solid red;
+	float: left;
+	display: inline-block;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+
+#plan #plan_silver {}
+
+#plan #plan_gold {}
+
+#plan #plan_platinum {}
+
+.clear {
+	clear: both;
+}
